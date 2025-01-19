@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">My Blog</h1>
+            <nav class="nav">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+            <section>
+                <h1 id="createBlogHeading">Write Your Blog Title</h1>
+                <div class="button-container">
+                    <button onclick="editoroption1()" title="Bold Text">
+                        Bold
+                    </button>
+                    <button onclick="editoroption2()" title="Italic Text">
+                        Italic
+                    </button>
+                    <button onclick="editoroption3()" title="Left Align">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button onclick="editoroption4()" title="Center Align">
+                        <i class="fas fa-align-center"></i>
+                    </button>
+                    <button onclick="editoroption5()" title="Right Align">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                    <button onclick="editoroption6()" title="Uppercase Text">
+                        Upper Case
+                    </button>
+                    <button onclick="editoroption7()" title="Lowercase Text">
+                        Lower Case
+                    </button>
+                    <button onclick="editoroption8()" title="Capitalize Text">
+                        Capitalize
+                    </button>
+                    <button onclick="editoroption9()" title="Clear Text">
+                        Clear Text
+                    </button>
+                    <button onclick="editoroption10()" title="bullet Point">
+                        Bullet Point
+                    </button>
+                    
+                </div>
+                <textarea id="textarea1" rows="15" placeholder="Enter Your Title">
+                </textarea>
+
+            </section>
+            <section>
+                <h1 id="createBlogHeading">Write Your Blog Content</h1>
+                <div class="button-container">
+                    <button onclick="editoroption1_2()" title="Bold Text">
+                        Bold
+                    </button>
+                    <button onclick="editoroption2_2()" title="Italic Text">
+                        Italic
+                    </button>
+                    <button onclick="editoroption3_2()" title="Left Align">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button onclick="editoroption4_2()" title="Center Align">
+                        <i class="fas fa-align-center"></i>
+                    </button>
+                    <button onclick="editoroption5_2()" title="Right Align">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                    <button onclick="editoroption6_2()" title="Uppercase Text">
+                        Upper Case
+                    </button>
+                    <button onclick="editoroption7_2()" title="Lowercase Text">
+                        Lower Case
+                    </button>
+                    <button onclick="editoroption8_2()" title="Capitalize Text">
+                        Capitalize
+                    </button>
+                    <button onclick="editoroption9_2()" title="Clear Text">
+                        Clear Text
+                    </button>
+                    <button onclick="editoroption10_2()" title="bullet Point">
+                        Bullet Point
+                    </button>
+                    
+                </div>
+                <textarea id="textarea2" rows="15" placeholder="Enter Your Content......">
+                </textarea>
+                
+            </section>
+            <section>
+                <h1 id="createBlogHeading">Create Your Blog Summary</h1>
+                <div class="button-container">
+                    <button onclick="editoroption1_3()" title="Bold Text">
+                        Bold
+                    </button>
+                    <button onclick="editoroption2_3()" title="Italic Text">
+                        Italic
+                    </button>
+                    <button onclick="editoroption3_3()" title="Left Align">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button onclick="editoroption4_3()" title="Center Align">
+                        <i class="fas fa-align-center"></i>
+                    </button>
+                    <button onclick="editoroption5_3()" title="Right Align">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                    <button onclick="editoroption6_3()" title="Uppercase Text">
+                        Upper Case
+                    </button>
+                    <button onclick="editoroption7_3()" title="Lowercase Text">
+                        Lower Case
+                    </button>
+                    <button onclick="editoroption8_3()" title="Capitalize Text">
+                        Capitalize
+                    </button>
+                    <button onclick="editoroption9_3()" title="Clear Text">
+                        Clear Text
+                    </button>
+                    <button onclick="editoroption10_3()" title="bullet Point">
+                        Bullet Point
+                    </button>
+                    
+                </div>
+
+                <textarea id="textarea3" rows="15" placeholder="Enter Summary of your Blog">
+                </textarea>
+            </section>
+
+            <div class="buttonContainer">
+                <button type="submit" id="submitButton">post Blog</button>
+        </div>
+        
+    </div>
+
+    
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+   <script src="./createBlog.js"></script>
+    
+</body>
+</html>
