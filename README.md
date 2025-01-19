@@ -42,6 +42,13 @@ Screenshots:
 
 ![image](https://github.com/user-attachments/assets/7be2ad25-b961-487c-9ce4-c34e318b2a8b)
 
+![image](https://github.com/user-attachments/assets/9c77e033-8587-4c57-9233-4c8cce89acc9)
+
+![image](https://github.com/user-attachments/assets/d52c6b18-8f2e-4b04-8c71-939494696705)
+
+![image](https://github.com/user-attachments/assets/273228e2-4ffb-44d5-b45d-542a1df0e708)
+
+
 
 4. Technical Details
 
